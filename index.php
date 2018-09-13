@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,3 +52,4 @@ for (i = 0; i < coll.length; i++) {
 
 </body>
 </html>
+
