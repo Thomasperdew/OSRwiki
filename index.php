@@ -30,7 +30,7 @@
     <li>Height and Weight</li>
   </div>
 </div>
-<div class="item3">Main</div>
+<div class="item3">Welcome to Osric Wiki. Please select a section from the left</div>
 <div class="item5">Footer</div>
 </div>
 

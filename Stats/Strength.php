@@ -7,7 +7,7 @@
 
     <h1>OSRwiki</h1>
     <div class="grid-container">
-        <div class="item1"><a href="index.php">Home</a></div>
+        <div class="item1"><a href="/index.php">Home</a></div>
         <div class="item2">
             <div class="collapsible">Creating a Character</div>
             <div class="content">
