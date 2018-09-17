@@ -52,36 +52,59 @@
 </head>
 <body>
 
-<h1>OSRICwiki</h1>
-<div class="grid-container">
-  <div class="item1"><a href="OSRwebsite.html">Home</a></div>
-<div class="item2">
-  <div class="collapsible">Creating a Character</div>
-  <div class="content">
-    <div class="collapsible">Abilities</div>
-    <div class="content">
-      <div><a href="Strength">Strength</a></div>
-      <div><a href="Dexterity">Dexterity</a></div>
-      <div><a href="Constitution">Constitution</a></div>
-      <div><a href="Intelligence">Intelligence</a></div>
-      <div><a href="Wisdom">Wisdom</a></div>
-      <div><a href="Charisma">Charisma</a></div>
+    <h1>OSRwiki</h1>
+    <div class="grid-container">
+        <div class="item1"><a href="/index.php">Home</a></div>
+        <div class="item2">
+            <div class="collapsible">Creating a Character</div>
+            <div class="content">
+                <li class="collapsible">Abilities</li>
+                <ul class="content">
+                    <li><a href="Stats/Strength.php">Strength</a></li>
+                    <li><a href="Stats/Dexterity.html">Dexterity</a></li>
+                    <li><a href="Stats/Constitution.html">Constitution</a></li>
+                    <li><a href="Stats/Intelligence.html">Intelligence</a></li>
+                    <li><a href="Stats/Wisdom.html">Wisdom</a></li>
+                    <li><a href="Stats/Charisma.html">Charisma</a></li>
+                </ul>
+                <li>Races</li>
+                <ul class="content">
+                    <li><a href="Stats/Strength.php"></a>Elf</li>
+                    <li><a href="Stats/Dexterity.html">Dwarf</a></li>
+                    <li><a href="Stats/Constitution.html">Human</a></li>
+                    <li><a href="Stats/Intelligence.html">Gnome</a></li>
+                    <li><a href="Stats/Wisdom.html">Halfling</a></li>
+                </ul>
+                <li>Classes</li>
+                <ul class="content">
+                    <li><a href="Classes/Fighter.html"></a>Fighter</li>
+                    <li><a href="Classes/Cleric.html">Cleric</a></li>
+                    <li><a href="Classes/Wizard.html">Wizard</a></li>
+                    <li><a href="Classes/Rogue.html">Rogue</a></li>
+                </ul>
+                <li>Alignment</li>
+                <li>Money</li>
+                <li>Equipment</li>
+                <li>Height and Weight</li>
+            </div>
+        </div>
+        <div class="item3">
+            <h2>Constitution</h2>
+            <p>
+                Constitution (“Con”) is a measure of the character’s overall
+                health and vitality. A high constitution score can give the character
+                bonus hit points (“hp”), so it is a desirable score for any
+                character class. Constitution is also important in two other
+                regards, for it determines both a character’s ability to survive
+                being raised from the dead (Survive Resurrection/Raise Dead)
+                and to survive a traumatic magical change in form, such as that
+                caused by a polymorph spell (Survive System Shock).
+            </p>
+        </div>
+        <div class="item5">Footer</div>
     </div>
-    <p>Races</p>
-    <p>Classes</p>
-    <p>Alignment</p>
-    <p>Money</p>
-    <p>Equipment</p>
-    <p>Height and Weight</p>
-  </div>
-</div>
-<div class="item3">Constitution
-<p>Constitution stuff</p>
-</div>
-<div class="item5">Footer</div>
-</div>
 
-<script>
+    <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -96,7 +119,7 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-</script>
+    </script>
 
 </body>
 </html>
