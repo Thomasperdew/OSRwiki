@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OSRICwiki</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+
+    <h1>OSRwiki</h1>
+    <div class="grid-container">
+        <div class="item1"><a href="/index.php">Home</a></div>
+        <div class="item2">
+            <div class="collapsible">Creating a Character</div>
+            <div class="content">
+                <li class="collapsible">Abilities</li>
+                <ul class="content">
+                    <li><a href="Stats/Strength.php">Strength</a></li>
+                    <li><a href="Stats/Dexterity.html">Dexterity</a></li>
+                    <li><a href="Stats/Constitution.html">Constitution</a></li>
+                    <li><a href="Stats/Intelligence.html">Intelligence</a></li>
+                    <li><a href="Stats/Wisdom.html">Wisdom</a></li>
+                    <li><a href="Stats/Charisma.html">Charisma</a></li>
+                </ul>
+                <li>Races</li>
+                <ul class="content">
+                    <li><a href="Elf.html"></a>Elf</li>
+                    <li><a href="Dwarf.html">Dwarf</a></li>
+                    <li><a href="Human.html">Human</a></li>
+                    <li><a href="Gnome.html">Gnome</a></li>
+                    <li><a href="Human.html">Halfling</a></li>
+                </ul>
+                <li>Classes</li>
+                <ul class="content">
+                    <li><a href="Classes/Fighter.html"></a>Fighter</li>
+                    <li><a href="Classes/Cleric.html">Cleric</a></li>
+                    <li><a href="Classes/Wizard.html">Wizard</a></li>
+                    <li><a href="Classes/Rogue.html">Rogue</a></li>
+                </ul>
+                <li>Alignment</li>
+                <li>Money</li>
+                <li>Equipment</li>
+                <li>Height and Weight</li>
+            </div>
+        </div>
+        <div class="item3">
+            <h2>Halfling</h2>
+            <p>
+                Halflings are a small and unprepossessing race, often living
+                near human settlements at an agreeable remove from the bustle
+                and hurriedness characteristic of humans. Halfl ing society
+                is comfortable and staid, rooted in polite, placid, well-fed life.
+                Halfl ing adventurers are thought aberrant, even lunatic, but
+                also dashing and heroic fi gures, a charming and amusing contradiction
+                of logic.
+            </p>
+            <p>
+                Halfl ings value learning and craftsmanship, as long as nothing
+                is taken to an embarrassing extreme. They are capable of moving
+                very quietly and are excellent marksmen; given the right
+                personality, halfl ings can become excellent thieves. Halfl ings
+                live to be 150 or more years old.
+            </p>
+        </div>
+        <div class="item5">Footer</div>
+    </div>
+
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+    </script>
+
+</body>
+</html>
