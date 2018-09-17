@@ -23,7 +23,20 @@
       <li><a href="Stats/Charisma.html">Charisma</a></li>
     </ul>
     <li>Races</li>
+		<ul class="content">
+      <li><a href="Races/Elf.html"></a>Elf</li>
+      <li><a href="Races/Dwarf.html">Dwarf</a></li>
+      <li><a href="Races/Human.html">Human</a></li>
+      <li><a href="Races/Gnome.html">Gnome</a></li>
+      <li><a href="Races/Halfling.html">Halfling</a></li>
+    </ul>
     <li>Classes</li>
+			<ul class="content">
+      <li><a href="Classes/Fighter.html"></a>Fighter</li>
+      <li><a href="Classes/Cleric.html">Cleric</a></li>
+      <li><a href="Classes/Wizard.html">Wizard</a></li>
+      <li><a href="Classes/Rogue.html">Rogue</a></li>
+    </ul>
     <li>Alignment</li>
     <li>Money</li>
     <li>Equipment</li>
