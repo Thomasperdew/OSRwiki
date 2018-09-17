@@ -22,7 +22,7 @@
       <li><a href="Stats/Wisdom.html">Wisdom</a></li>
       <li><a href="Stats/Charisma.html">Charisma</a></li>
     </ul>
-    <li>Races</li>
+    <li class="collapsible">Races</li>
 		<ul class="content">
       <li><a href="Races/Elf.html"></a>Elf</li>
       <li><a href="Races/Dwarf.html">Dwarf</a></li>
@@ -30,7 +30,7 @@
       <li><a href="Races/Gnome.html">Gnome</a></li>
       <li><a href="Races/Halfling.html">Halfling</a></li>
     </ul>
-    <li>Classes</li>
+    <li class="collapsible">Classes</li>
 			<ul class="content">
       <li><a href="Classes/Fighter.html"></a>Fighter</li>
       <li><a href="Classes/Cleric.html">Cleric</a></li>
