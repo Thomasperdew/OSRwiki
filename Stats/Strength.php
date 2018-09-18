@@ -20,7 +20,7 @@
       <li><a href="Wisdom.html">Wisdom</a></li>
       <li><a href="Charisma.html">Charisma</a></li>
     </ul>
-    <li>Races</li>
+    <li class="collapsible">Races</li>
                 <ul class="content">
                     <li><a href="Races/Elf.html"></a>Elf</li>
                     <li><a href="Races/Dwarf.html">Dwarf</a></li>
@@ -28,7 +28,7 @@
                     <li><a href="Races/Gnome.html">Gnome</a></li>
                     <li><a href="Races/Human.html">Halfling</a></li>
                 </ul>
-    <li>Classes</li>
+    <li class="collapsible">Classes</li>
      <ul class="content">
       <li><a href="Classes/Fighter.html"></a>Fighter</li>
       <li><a href="Classes/Cleric.html">Cleric</a></li>
@@ -55,8 +55,12 @@ the possibility for extremely strong characters to perform
 exceptional or normally impossible feats of strength, such as
 opening a door which is held closed by some relatively minor
 magic rather than a lock.</p>
-		</div>
-        <div class="item5">Footer</div>
+		<div class="item5">
+<p>Text © Stuart Marshall 2006-08 or contributing author 2006-08
+and used with permission—see the Open Game License section 15
+Illustrations and maps © respective artists 2006-08, used with permission
+“OSRIC”, “Osric” and “O.S.R.I.C.” are trademarks of Matthew Finch and Stuart Marshall</p>
+</div>
     </div>
 
     <script>
