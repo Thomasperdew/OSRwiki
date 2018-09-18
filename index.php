@@ -7,9 +7,8 @@
   <link rel="stylesheet" href="stylesheet.css" />
 </head>
 <body>
-<h1>OSRwiki</h1>
 <div class="grid-container">
-  <div class="item1">Home</div>
+  <div class="item1"><h1>OSRwiki</h1></div>
 <div class="item2">
   <div class="collapsible">Creating a Character</div>
   <div class="content">
@@ -31,12 +30,12 @@
       <li><a href="Races/Halfling.html">Halfling</a></li>
     </ul>
     <li class="collapsible">Classes</li>
-			<ul class="content">
-      <li><a href="Classes/Fighter.html"></a>Fighter</li>
-      <li><a href="Classes/Cleric.html">Cleric</a></li>
-      <li><a href="Classes/Wizard.html">Wizard</a></li>
-      <li><a href="Classes/Rogue.html">Rogue</a></li>
-    </ul>
+		<ul class="content">
+			<li><a href="Classes/Fighter.html"></a>Fighter</li>
+			<li><a href="Classes/Cleric.html">Cleric</a></li>
+			<li><a href="Classes/Wizard.html">Wizard</a></li>
+			<li><a href="Classes/Rogue.html">Rogue</a></li>
+		</ul>
     <li>Alignment</li>
     <li>Money</li>
     <li>Equipment</li>
