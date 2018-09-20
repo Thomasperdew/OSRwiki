@@ -1,6 +1,6 @@
 <?php
 function render_table($filename) {
-     $data = file_get_contents($filename);
+     $data = file_get_contents('Text.txt', true);
      $lines = explode("\n", trim($data));
      $header = array_shift($lines);
      $headerItems = explode("|", $header);
@@ -21,4 +21,3 @@ function render_table($filename) {
           }
        ?>
       </table>
-<?php } ?>

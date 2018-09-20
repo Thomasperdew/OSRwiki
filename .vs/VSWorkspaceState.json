@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Races",
+    "\\Test"
   ],
-  "SelectedNode": "\\index.php",
+  "SelectedNode": "\\Test\\Test.txt",
   "PreviewInSolutionExplorer": false
 }
