@@ -23,7 +23,7 @@
     </ul>
     <li class="collapsible">Races</li>
 		<ul class="content">
-      <li><a href="Races/Elf.html"></a>Elf</li>
+      <li><a href="Races/Elf.html">Elf</a></li>
       <li><a href="Races/Dwarf.html">Dwarf</a></li>
       <li><a href="Races/Human.html">Human</a></li>
       <li><a href="Races/Gnome.html">Gnome</a></li>
@@ -31,10 +31,14 @@
     </ul>
     <li class="collapsible">Classes</li>
 		<ul class="content">
-			<li><a href="Classes/Fighter.html"></a>Fighter</li>
+			<li><a href="Classes/Fighter.html">Fighter</a></li>
 			<li><a href="Classes/Cleric.html">Cleric</a></li>
 			<li><a href="Classes/Wizard.html">Wizard</a></li>
 			<li><a href="Classes/Rogue.html">Rogue</a></li>
+		</ul>
+	<li class="collapsible">Test</li>
+		<ul class="content">
+			<li><a href="Test/Test.php">Test</a></li>
 		</ul>
     <li>Alignment</li>
     <li>Money</li>
