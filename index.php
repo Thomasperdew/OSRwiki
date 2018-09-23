@@ -48,9 +48,9 @@
 </div>
 <div class="item3">Welcome to Osric Wiki. Please select a section from the left</div>
 <div class="item5">
-<p>Text © Stuart Marshall 2006-08 or contributing author 2006-08
+<p>Text &#169; Stuart Marshall 2006-08 or contributing author 2006-08
 and used with permission—see the Open Game License section 15
-Illustrations and maps © respective artists 2006-08, used with permission
+Illustrations and maps &#169; respective artists 2006-08, used with permission
 “OSRIC”, “Osric” and “O.S.R.I.C.” are trademarks of Matthew Finch and Stuart Marshall</p>
 </div>
 </div>
