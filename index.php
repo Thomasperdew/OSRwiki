@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="grid-container">
-  <div class="item1"><img src="icon.png"></img><h1>OSRwiki</h1><span float="right">Login</span></div>
+  <span class="item1"><img src="icon.png"></img><h1>OSRwiki</h1><p float="right">Login</p></span>
 <div class="item2">
   <div class="collapsible">Creating a Character</div>
   <div class="content">
