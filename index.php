@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="grid-container">
-  <span class="item1"><img src="icon.png"></img><h1>OSRwiki</h1><p float="right">Login</p></span>
+  <div><span class="item1"><img src="icon.png"></img><h1>OSRwiki</h1><p float="right">Login</p></span></div>
 <div class="item2">
   <div class="collapsible">Creating a Character</div>
   <div class="content">
@@ -49,9 +49,9 @@
 <div class="item3">Welcome to Osric Wiki. Please select a section from the left</div>
 <div class="item5">
 <p>Text &#169; Stuart Marshall 2006-08 or contributing author 2006-08
-and used with permission—see the Open Game License section 15
+and used with permission, see the Open Game License section 15
 Illustrations and maps &#169; respective artists 2006-08, used with permission
-“OSRIC”, “Osric” and “O.S.R.I.C.” are trademarks of Matthew Finch and Stuart Marshall</p>
+OSRIC, Osric and O.S.R.I.C. are trademarks of Matthew Finch and Stuart Marshall</p>
 </div>
 </div>
 
