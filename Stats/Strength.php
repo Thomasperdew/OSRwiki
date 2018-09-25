@@ -41,7 +41,7 @@
     <li>Height and Weight</li>
   </div>
 </div>
-        <div class="item3"><h2>Strength</h2>
+ <div class="item3"><h2>Strength</h2>
 		<p>Strength (Str) is a measure of physical power, and is the most
 important attribute for fighters. If a fighter, paladin, or ranger
 character rolls an 18 strength, the player then rolls a d%, and
@@ -55,6 +55,7 @@ the possibility for extremely strong characters to perform
 exceptional or normally impossible feats of strength, such as
 opening a door which is held closed by some relatively minor
 magic rather than a lock.</p>
+</div>
 <div class="item5">
 <p>Text &#169; Stuart Marshall 2006-08 or contributing author 2006-08
 and used with permission, see the Open Game License section 15
