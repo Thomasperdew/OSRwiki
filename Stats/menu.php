@@ -1,5 +1,6 @@
-<?php
-echo <div class="item2">
+<div class="grid-container">
+  <div class="item1"><img src="icon.png" style="float:left; margin-top: 15px;" width="40" height="40"></img><h1 style="float:left; margin:0;">OSRwiki</h1><a href="Login.html" style="float:right;">Login</a></div>
+<div class="item2">
   <div class="collapsible">Creating a Character</div>
   <div class="content">
     <li class="collapsible">Abilities</li>
@@ -11,12 +12,36 @@ echo <div class="item2">
       <li><a href="Stats/Wisdom.html">Wisdom</a></li>
       <li><a href="Stats/Charisma.html">Charisma</a></li>
     </ul>
-    <li>Races</li>
-    <li>Classes</li>
+    <li class="collapsible">Races</li>
+		<ul class="content">
+      <li><a href="Races/Elf.html">Elf</a></li>
+      <li><a href="Races/Dwarf.html">Dwarf</a></li>
+      <li><a href="Races/Human.html">Human</a></li>
+      <li><a href="Races/Gnome.html">Gnome</a></li>
+      <li><a href="Races/Halfling.html">Halfling</a></li>
+    </ul>
+    <li class="collapsible">Classes</li>
+		<ul class="content">
+			<li><a href="Classes/Fighter.html">Fighter</a></li>
+			<li><a href="Classes/Cleric.html">Cleric</a></li>
+			<li><a href="Classes/Wizard.html">Wizard</a></li>
+			<li><a href="Classes/Rogue.html">Rogue</a></li>
+		</ul>
+	<li class="collapsible">Test</li>
+		<ul class="content">
+			<li><a href="Test/Test.php">Test</a></li>
+		</ul>
     <li>Alignment</li>
     <li>Money</li>
     <li>Equipment</li>
     <li>Height and Weight</li>
   </div>
-</div>;
-?>
+</div>
+<div class="item3">Welcome to Osric Wiki. Please select a section from the left</div>
+<div class="item5">
+<p>Text &#169; Stuart Marshall 2006-08 or contributing author 2006-08
+and used with permission, see the Open Game License section 15
+Illustrations and maps &#169; respective artists 2006-08, used with permission
+OSRIC, Osric and O.S.R.I.C. are trademarks of Matthew Finch and Stuart Marshall</p>
+</div>
+</div>
