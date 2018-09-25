@@ -1,14 +1,3 @@
-<?php
-?>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>OSRwiki</title>
-  <link rel="stylesheet" href="stylesheet.css" />
-</head>
-<body>
-<div class="grid-container">
-  <div class="item1"><img src="icon.png" style="float:left; margin-top: 15px;" width="40" height="40"></img><h1 style="float:left; margin:0;">OSRwiki</h1><a href="Login.html" style="float:right;">Login</a></div>
 <div class="item2">
   <div class="collapsible">Creating a Character</div>
   <div class="content">
@@ -46,31 +35,3 @@
     <li>Height and Weight</li>
   </div>
 </div>
-<div class="item3">Welcome to Osric Wiki. Please select a section from the left</div>
-<div class="item5">
-<p>Text &#169; Stuart Marshall 2006-08 or contributing author 2006-08
-and used with permission, see the Open Game License section 15
-Illustrations and maps &#169; respective artists 2006-08, used with permission
-OSRIC, Osric and O.S.R.I.C. are trademarks of Matthew Finch and Stuart Marshall</p>
-</div>
-</div>
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
-</body>
-</html>
-
