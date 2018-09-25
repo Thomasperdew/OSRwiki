@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="grid-container">
-  <div class="item1"><img src="icon.png" style="float:left; margin-top: 15px;" width="40" height="40"></img><h1 style="float:left; margin:0;">OSRwiki</h1><p style="float:right;">Login</p></div>
+  <div class="item1"><img src="icon.png" style="float:left; margin-top: 15px;" width="40" height="40"></img><h1 style="float:left; margin:0;">OSRwiki</h1><a href="Login.html" style="float:right;">Login</a></div>
 <div class="item2">
   <div class="collapsible">Creating a Character</div>
   <div class="content">
@@ -54,7 +54,6 @@ Illustrations and maps &#169; respective artists 2006-08, used with permission
 OSRIC, Osric and O.S.R.I.C. are trademarks of Matthew Finch and Stuart Marshall</p>
 </div>
 </div>
-
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
