@@ -36,14 +36,10 @@
 			<li><a href="Classes/Wizard.html">Wizard</a></li>
 			<li><a href="Classes/Rogue.html">Rogue</a></li>
 		</ul>
-	<li class="collapsible">Test</li>
-		<ul class="content">
-			<li><a href="Test/Test.php">Test</a></li>
-		</ul>
-    <li>Alignment</li>
-    <li>Money</li>
-    <li>Equipment</li>
-    <li>Height and Weight</li>
+    <li><a href="Alignment.html">Alignment</a></li>
+    <li><a href="Money.html">Money</a></li>
+    <li><a href="Equipment.html">Epuipment</a></li>
+    <li><a href="HeightandWeight.html">Height and Weight</a></li>
   </div>
 </div>
 <div class="item3">Welcome to Osric Wiki. Please select a section from the left</div>

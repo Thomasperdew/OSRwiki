@@ -1,24 +1,22 @@
 <html>
 <head>
     <title>OSRwiki</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
 </head>
 <body>
-
-    <h1>OSRwiki</h1>
     <div class="grid-container">
-  <div class="item1"><img src="icon.png" style="float:left; margin-top: 15px;" width="40" height="40"></img><h1 style="float:left; margin:0;">OSRwiki</h1><a href="Login.html" style="float:right;">Login</a></div>
+  <div class="item1"><img src="../icon.png" style="float:left; margin-top: 15px;" width="40" height="40"></img><h1 style="float:left; margin:0;">OSRwiki</h1><a href="Login.html" style="float:right;">Login</a></div>
 <div class="item2">
   <div class="collapsible">Creating a Character</div>
   <div class="content">
     <li class="collapsible">Abilities</li>
     <ul class="content">
-      <li><a href="Stats/Strength.php">Strength</a></li>
-      <li><a href="Stats/Dexterity.html">Dexterity</a></li>
-      <li><a href="Stats/Constitution.html">Constitution</a></li>
-      <li><a href="Stats/Intelligence.html">Intelligence</a></li>
-      <li><a href="Stats/Wisdom.html">Wisdom</a></li>
-      <li><a href="Stats/Charisma.html">Charisma</a></li>
+      <li><a href="Strength.php">Strength</a></li>
+      <li><a href="Dexterity.html">Dexterity</a></li>
+      <li><a href="Constitution.html">Constitution</a></li>
+      <li><a href="Intelligence.html">Intelligence</a></li>
+      <li><a href="Wisdom.html">Wisdom</a></li>
+      <li><a href="Charisma.html">Charisma</a></li>
     </ul>
     <li class="collapsible">Races</li>
 		<ul class="content">
@@ -35,14 +33,10 @@
 			<li><a href="Classes/Wizard.html">Wizard</a></li>
 			<li><a href="Classes/Rogue.html">Rogue</a></li>
 		</ul>
-	<li class="collapsible">Test</li>
-		<ul class="content">
-			<li><a href="Test/Test.php">Test</a></li>
-		</ul>
-    <li>Alignment</li>
-    <li>Money</li>
-    <li>Equipment</li>
-    <li>Height and Weight</li>
+    <li><a href="../Alignment.html">Alignment</a></li>
+    <li><a href="../Money.html">Money</a></li>
+    <li><a href="../Equipment.html">Epuipment</a></li>
+    <li><a href="../HeightandWeight.html">Height and Weight</a></li>
   </div>
 </div>
  <div class="item3"><h2>Strength</h2>
