@@ -7,8 +7,8 @@
 
     <h1>OSRwiki</h1>
     <div class="grid-container">
-  <?php require_once "Layout\Header.php"; ?>
-  <?php require_once "Layout\Menu.php"; ?>
+  <?php require_once "Layout/Header.php"; ?>
+  <?php require_once "Layout/Menu.php"; ?>
  <div class="item3"><h2>Strength</h2>
  <p>Strength (Str) is a measure of physical power, and is the most
 important attribute for fighters. If a fighter, paladin, or ranger
@@ -24,7 +24,7 @@ exceptional or normally impossible feats of strength, such as
 opening a door which is held closed by some relatively minor
 magic rather than a lock.</p>
 </div>
-  <?php require_once "Layout\Footer.php"; ?>
+  <?php require_once "Layout/Footer.php"; ?>
     </div>
 
     <script>
