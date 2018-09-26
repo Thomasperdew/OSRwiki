@@ -13,7 +13,7 @@
 <div class="item2">
   <div class="collapsible">Creating a Character</div>
   <div class="content">
-    <li class="collapsible">Abilities test</li>
+    <li class="collapsible">Abilities</li>
     <ul class="content">
       <li><a href="Stats/Strength.php">Strength</a></li>
       <li><a href="Stats/Dexterity.html">Dexterity</a></li>
