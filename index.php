@@ -5,6 +5,7 @@
 <head>
   <title>OSRwiki</title>
   <link rel="stylesheet" href="stylesheet.css" />
+      <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 <div class="grid-container">
