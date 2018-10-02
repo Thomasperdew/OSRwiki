@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OSRICwiki</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+
+    <h1>OSRwiki</h1>
+    <div class="grid-container">
+        <div class="item1"><a href="/index.php">Home</a></div>
+        <div class="item2">
+            <div class="collapsible">Creating a Character</div>
+            <div class="content">
+                <li class="collapsible">Abilities</li>
+                <ul class="content">
+                    <li><a href="Stats/Strength.php">Strength</a></li>
+                    <li><a href="Stats/Dexterity.html">Dexterity</a></li>
+                    <li><a href="Stats/Constitution.html">Constitution</a></li>
+                    <li><a href="Stats/Intelligence.html">Intelligence</a></li>
+                    <li><a href="Stats/Wisdom.html">Wisdom</a></li>
+                    <li><a href="Stats/Charisma.html">Charisma</a></li>
+                </ul>
+                <li class="collapsible">Races</li>
+                <ul class="content">
+                    <li><a href="Races/Elf.html"></a>Elf</li>
+                    <li><a href="Races/Dwarf.html">Dwarf</a></li>
+                    <li><a href="Races/Human.html">Human</a></li>
+                    <li><a href="Races/Gnome.html">Gnome</a></li>
+                    <li><a href="Races/Human.html">Halfling</a></li>
+                </ul>
+                <li class="collapsible">Classes</li>
+                <ul class="content">
+                    <li><a href="Fighter.html"></a>Fighter</li>
+                    <li><a href="Cleric.html">Cleric</a></li>
+                    <li><a href="Wizard.html">Wizard</a></li>
+                    <li><a href="Rogue.html">Rogue</a></li>
+                </ul>
+                <li>Alignment</li>
+                <li>Money</li>
+                <li>Equipment</li>
+                <li>Height and Weight</li>
+            </div>
+        </div>
+        <div class="item3">
+            <h2>Wizard</h2>
+            <p>
+                Magic users are a rare breed—practitioners of the mysterious
+                art of arcane spell casting. A lengthy apprenticeship of
+                study and practice allows these somewhat eerie individuals to
+                store arcane energy within their minds and to release it in the
+                form of spells. Magic users cast spells by speaking a few magic
+                words, weaving complex gestures in the air, and employing
+                rare and magical materials. While magic users (with illusionists)
+                are the weakest character class in combat, this weakness is
+                balanced by possessing the most powerful and versatile spells
+                in the game.
+            </p>
+            <p>
+                The full underlying principles of magic are beyond mortal comprehension;
+                even wizards of the profoundest intellect struggle
+                from momentary inklings to understand its more complex patterns.
+                Nevertheless, those character who possess formidable
+                intelligence and a certain intuitive gift, who are willing to devote
+                themselves to a lifetime of study, may in time suffi ciently
+                master the art to be capable of shifting mountains and shattering
+                entire armies. High-level magic users are the most feared
+                and dangerous characters in the game.
+            </p>
+            <p>
+                Magic users do not gain bonus spells for high intelligence
+                scores; intelligence does determine which spells they can understand
+                and how many spells they may learn for each spell
+                level.
+            </p>
+            <p>
+                Magic users are dependent upon their spell books, and normally
+                may only cast spell they have learned from these books
+                (exception: magic users may cast spells from arcane magical
+                scrolls). Mages may not cast spells from divine, druidic
+                or phantasmal magic scrolls. The acquisition of a new spell is
+                diffi cult and demanding and must normally be accomplished
+                through adventuring, although the mage will automatically
+                receive one new spell of the highest spell level that he or she
+                may cast upon acquiring a new level of experience.
+            </p>
+            <p>
+                OSRIC magic users are superfi cially similar to the wizards of
+                fantasy literature such as Gandalf and Merlin, but they are
+                more closely similar to mages described in the works of Jack
+                Vance. His “Dying Earth” cycle, and particularly “Rhialto the
+                Marvellous”, are highly recommended.
+            </p>
+            <p>
+                Magic users are the only class capable of fabricating magic
+                items that they cannot themselves employ. Clerics, druids
+                and illusionists can fabricate magic items, but only those they
+                themselves can use; items such as magical swords, that no
+                primary spell casting class may use, are in their creation the
+                sole province of magic users.
+            </p>
+            <p>
+                At 11th level, a magic user may establish a stronghold (usually
+                a tower or small keep) in the same manner as a fi ghter.
+            </p>
+        </div>
+        <div class="item5">
+            <p>
+                Text © Stuart Marshall 2006-08 or contributing author 2006-08
+                and used with permission—see the Open Game License section 15
+                Illustrations and maps © respective artists 2006-08, used with permission
+                “OSRIC”, “Osric” and “O.S.R.I.C.” are trademarks of Matthew Finch and Stuart Marshall
+            </p>
+        </div>
+    </div>
+
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+    </script>
+
+</body>
+</html>

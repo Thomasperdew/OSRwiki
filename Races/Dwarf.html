@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OSRICwiki</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+
+    <h1>OSRwiki</h1>
+    <div class="grid-container">
+        <div class="item1"><a href="/index.php">Home</a></div>
+        <div class="item2">
+            <div class="collapsible">Creating a Character</div>
+            <div class="content">
+                <li class="collapsible">Abilities</li>
+                <ul class="content">
+                    <li><a href="Stats/Strength.php">Strength</a></li>
+                    <li><a href="Stats/Dexterity.html">Dexterity</a></li>
+                    <li><a href="Stats/Constitution.html">Constitution</a></li>
+                    <li><a href="Stats/Intelligence.html">Intelligence</a></li>
+                    <li><a href="Stats/Wisdom.html">Wisdom</a></li>
+                    <li><a href="Stats/Charisma.html">Charisma</a></li>
+                </ul>
+                <li>Races</li>
+                <ul class="content">
+                    <li><a href="Elf.html"></a>Elf</li>
+                    <li><a href="Dwarf.html">Dwarf</a></li>
+                    <li><a href="Human.html">Human</a></li>
+                    <li><a href="Gnome.html">Gnome</a></li>
+                    <li><a href="Human.html">Halfling</a></li>
+                </ul>
+                <li>Classes</li>
+                <ul class="content">
+                    <li><a href="Classes/Fighter.html"></a>Fighter</li>
+                    <li><a href="Classes/Cleric.html">Cleric</a></li>
+                    <li><a href="Classes/Wizard.html">Wizard</a></li>
+                    <li><a href="Classes/Rogue.html">Rogue</a></li>
+                </ul>
+                <li>Alignment</li>
+                <li>Money</li>
+                <li>Equipment</li>
+                <li>Height and Weight</li>
+            </div>
+        </div>
+        <div class="item3">
+            <h2>Dwarf</h2>
+            <p>
+                Dwarfs are a short and burly race, living in mountain fastnesses
+                underground. They are loyal friends and fi erce adversaries,
+                known for their steadfastness in all things.
+            </p>
+            <p>
+                The dwarfs are inherently resistant to many spells and spell-like
+                effects. Dwarfi sh characters gain bonuses against the use of
+                most magic, including all spells, wands, rods, and staves. The
+                amount of the bonus depends upon the dwarf’s constitution:
+                every 3.5 points of constitution (rounding down fractions)
+                grants a bonus of +1 against such magic. Moreover, the hardy
+                dwarfi sh nature imparts a similar bonus on any saving throws
+                against poison.
+            </p>
+            <p>
+                Dwarfs are not a numerous folk, but they are adventurous,
+                loving the lustre of gold, the glitter of gems, and the quality
+                of well-wrought metals. Dwarfs can live to an age of 350 years
+                or more.
+            </p>
+        </div>
+        <div class="item5">
+            <p>
+                Text © Stuart Marshall 2006-08 or contributing author 2006-08
+                and used with permission—see the Open Game License section 15
+                Illustrations and maps © respective artists 2006-08, used with permission
+                “OSRIC”, “Osric” and “O.S.R.I.C.” are trademarks of Matthew Finch and Stuart Marshall
+            </p>
+        </div>
+    </div>
+
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+    </script>
+
+</body>
+</html>
