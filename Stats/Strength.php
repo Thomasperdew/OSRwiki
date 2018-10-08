@@ -1,3 +1,4 @@
+<?php $thisPage="Strength"; ?>
 <html>
 <head>
     <title>OSRwiki</title>

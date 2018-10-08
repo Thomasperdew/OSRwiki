@@ -1,10 +1,31 @@
+
+
 .item1 { grid-area: header; }
+
 .item2 {
     grid-area: menu;
     text-align: left;
+    list-style-type: none;
+    font-size:medium;
 }
 .item3 { grid-area: main; }
 .item5 { grid-area: footer; }
+
+.icon-item {
+    float:left; 
+    margin-top: 15px; 
+    width: 40px; 
+    height: 40px;
+    padding-left: 20px;
+}
+
+.login-item {
+    float:right; 
+    padding-right:10px
+}
+li {
+    padding-left: 20px;
+}
 
 .grid-container {
   display: grid;
@@ -14,62 +35,14 @@
     'menu footer footer footer footer footer';
   padding: 10px;
 }
+
 .grid-container>div{
   border-style: solid;
   text-align: center;
   padding: 10px 0;
   font-size: 30px;
 }
-
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  text-align: left;
-  font-size: 15px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #ccc;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-    display: none;
-    background-color: #f1f1f1;
-    font-size: 15px;
+.menu-list {
     list-style-type: none;
 }
 
-#navigation ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#navigation li {
-    background: #ccc;
-    border-left: 1px solid #999;
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-
-#navigation a {
-    color: #666;
-    font-weight: bold;
-    padding: 5px 10px;
-    text-decoration: none;
-}
-
-    #navigation a:hover {
-        color: #333;
-    }
-
-#navigation #currentpage a {
-    background: #fff;
-    color: #333;
-}

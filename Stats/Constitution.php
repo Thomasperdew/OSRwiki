@@ -1,3 +1,4 @@
+<?php $thisPage="Constitution"; ?>
 <html>
 <head>
     <title>OSRwiki</title>

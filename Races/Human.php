@@ -1,4 +1,4 @@
-<?php $thisPage="Dexterity"; ?>
+<?php $thisPage="Human"; ?>
 <html>
 <head>
     <title>OSRwiki</title>
@@ -11,18 +11,22 @@
             <?php include '../Layout/Menu.php';?>
         </div>
         <div class="item3">
-            <h2>Dexterity</h2>
+            <h2>Human</h2>
             <p>
-                Dexterity (“Dex”) is a measure of the character’s speed, handeye
-                coordination, and nimbleness of foot. It affects the accuracy
-                of missile fi re and the character’s ability to dodge blows,
-                so a high dexterity score can be extremely useful to characters
-                of any class. It is the most important ability score for thieves.
+                Humans are the standard for the game, and as such, humans
+                have no unusual abilities or limitations in game terms. Because
+                of their potential for unlimited progression in all the character
+                classes save assassin and druid, humans are a popular choice
+                for most players. This is an intentional feature of the rules.
             </p>
             <p>
-                Except in surprise situations, dexterity does not modify the
-                initiative roll in melee combat. However, it may modify initiative
-                in missile combat (see “Combat”).
+                A common house rule in OSRIC-compatible games is the
+                adjustment or removal of demi-human level limits. This will
+                unbalance the game in favour of demi-humans unless humans
+                are given some corresponding advantage. GMs considering
+                such a house rule for their own OSRIC-compatible games are
+                advised to ensure that in most campaigns, humans should still
+                represent an attractive choice for their players.
             </p>
         </div>
         <div class="item5">

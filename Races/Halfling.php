@@ -1,4 +1,4 @@
-<?php $thisPage="Dexterity"; ?>
+<?php $thisPage="Halfling"; ?>
 <html>
 <head>
     <title>OSRwiki</title>
@@ -11,18 +11,22 @@
             <?php include '../Layout/Menu.php';?>
         </div>
         <div class="item3">
-            <h2>Dexterity</h2>
+            <h2>Halfling</h2>
             <p>
-                Dexterity (“Dex”) is a measure of the character’s speed, handeye
-                coordination, and nimbleness of foot. It affects the accuracy
-                of missile fi re and the character’s ability to dodge blows,
-                so a high dexterity score can be extremely useful to characters
-                of any class. It is the most important ability score for thieves.
+                Halflings are a small and unprepossessing race, often living
+                near human settlements at an agreeable remove from the bustle
+                and hurriedness characteristic of humans. Halfl ing society
+                is comfortable and staid, rooted in polite, placid, well-fed life.
+                Halfl ing adventurers are thought aberrant, even lunatic, but
+                also dashing and heroic fi gures, a charming and amusing contradiction
+                of logic.
             </p>
             <p>
-                Except in surprise situations, dexterity does not modify the
-                initiative roll in melee combat. However, it may modify initiative
-                in missile combat (see “Combat”).
+                Halfl ings value learning and craftsmanship, as long as nothing
+                is taken to an embarrassing extreme. They are capable of moving
+                very quietly and are excellent marksmen; given the right
+                personality, halfl ings can become excellent thieves. Halfl ings
+                live to be 150 or more years old.
             </p>
         </div>
         <div class="item5">

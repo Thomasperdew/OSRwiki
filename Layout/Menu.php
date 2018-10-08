@@ -1,44 +1,27 @@
 <div class="item2">
-  <div class="collapsible">Creating a Character</div>
-  <div class="content">
-    <li class="collapsible">Abilities</li>
-    <ul class="content">
-      <li><a href="Stats/Strength.php">Strength</a></li>
-      <li><a href="Stats/Dexterity.php">Dexterity</a></li>
-      <li><a href="Stats/Constitution.php">Constitution</a></li>
-      <li><a href="Stats/Intelligence.php">Intelligence</a></li>
-      <li><a href="Stats/Wisdom.php">Wisdom</a></li>
-      <li><a href="Stats/Charisma.php">Charisma</a></li>
-    </ul>
-    <li class="collapsible">Races</li>
-		<ul class="content">
-      <li><a href="Races/Elf.html">Elf</a></li>
-      <li><a href="Races/Dwarf.html">Dwarf</a></li>
-      <li><a href="Races/Human.html">Human</a></li>
-      <li><a href="Races/Gnome.html">Gnome</a></li>
-      <li><a href="Races/Halfling.html">Halfling</a></li>
-    </ul>
-    <li class="collapsible">Classes</li>
-		<ul class="content">
-			<li><a href="Classes/Fighter.html">Fighter</a></li>
-			<li><a href="Classes/Cleric.html">Cleric</a></li>
-			<li><a href="Classes/Wizard.html">Wizard</a></li>
-			<li><a href="Classes/Rogue.html">Rogue</a></li>
-		</ul>
-    <li>Alignment</li>
-    <li>Money</li>
-    <li>Equipment</li>
-    <li>Height and Weight</li>
+  <div>Creating a Character</div>
+  <div>
+    <div>Abilities</div>
+      <li<?php if ($thisPage=="Strength")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Strength.php">Strength</a></li>
+      <li<?php if ($thisPage=="Dexterity")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Dexterity.php">Dexterity</a></li>
+      <li<?php if ($thisPage=="Constitution")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Constitution.php">Constitution</a></li>
+      <li<?php if ($thisPage=="Intelligence")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Intelligence.php">Intelligence</a></li>
+      <li<?php if ($thisPage=="Wisdom")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Wisdom.php">Wisdom</a></li>
+      <li<?php if ($thisPage=="Charisma")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Charisma.php">Charisma</a></li>
+    <div>Races</div>
+      <li<?php if ($thisPage=="Elf")  echo " id=\"currentpage\""; ?>> <a href="/Website/Races/Elf.php">Elf</a></li>
+      <li<?php if ($thisPage=="Dwarf")  echo " id=\"currentpage\""; ?>> <a href="/Website/Races/Dwarf.php">Dwarf</a></li>
+      <li<?php if ($thisPage=="Human")  echo " id=\"currentpage\""; ?>> <a href="/Website/Races/Human.php">Human</a></li>
+      <li<?php if ($thisPage=="Gnome")  echo " id=\"currentpage\""; ?>> <a href="/Website/Races/Gnome.php">Gnome</a></li>
+      <li<?php if ($thisPage=="Halfling")  echo " id=\"currentpage\""; ?>> <a href="/Website/Races/Halfling.php">Halfling</a></li>
+    <div>Classes</div>
+		<li<?php if ($thisPage=="Fighter")  echo " id=\"currentpage\""; ?>> <a href="/Website/Classes/Fighter.php">Fighter</a></li>
+		<li<?php if ($thisPage=="Cleric")  echo " id=\"currentpage\""; ?>> <a href="/Website/Classes/Cleric.php">Cleric</a></li>
+		<li<?php if ($thisPage=="Wizard")  echo " id=\"currentpage\""; ?>> <a href="/Website/Classes/Wizard.php">Wizard</a></li>
+		<li<?php if ($thisPage=="Rogue")  echo " id=\"currentpage\""; ?>> <a href="/Website/Classes/Rogue.php">Rogue</a></li>
+    <div<?php if ($thisPage=="Alignment")  echo " id=\"currentpage\""; ?>> <a href="/Website/Alignment.php">Alignment</a></div>
+    <div<?php if ($thisPage=="Money")  echo " id=\"currentpage\""; ?>> <a href="/Website/Money.php">Money</a></div>
+    <div<?php if ($thisPage=="Equipment")  echo " id=\"currentpage\""; ?>> <a href="/Website/Equipment.php">Equipment</a></div>
+    <div<?php if ($thisPage=="HeightandWeight")  echo " id=\"currentpage\""; ?>> <a href="/Website/HeightandWeight.php">Height and Weight</a></div>
   </div>
-</div>
-<div id="navigation">
-<ul>
-<li<?php if ($thisPage=="Strength")  echo " id=\"currentpage\""; ?>> <a href="#">Strength</a></li>
-
-<li<?php if ($thisPage=="Dexterity")  echo " id=\"currentpage\""; ?>> <a href="#">Dexterity</a></li>
-
-<li<?php if ($thisPage=="Page Three")  echo " id=\"currentpage\""; ?>> <a href="#">Page Three</a></li>
-
-<li<?php if ($thisPage=="Page Four")  echo " id=\"currentpage\""; ?>> <a href="#">Page Four</a></li>
-</ul>
 </div>
