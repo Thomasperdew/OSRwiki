@@ -12,7 +12,7 @@
         <div class="item2">
             <?php include '/Layout/Menu.php';?>
         </div>
-<div class="item3">Welcome to Osric Wiki. Please select an item from the menu on the left</div>
+		<div class="item3">Welcome to Osric Wiki. Please select an item from the menu on the left</div>
         <div class="item5">
             <?php include '/Layout/Footer.php';?>
         </div>

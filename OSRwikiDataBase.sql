@@ -1,7 +1,0 @@
-use heroku_10aa37358da4f01;
-
-CREATE TABLE user (
-email VARCHAR(256) NOT NULL PRIMARY KEY,
-password VARCHAR(64) NOT NULL,
-access INTEGER(1)
-);
