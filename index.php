@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>OSRwiki</title>
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheet.css">
   <link rel="icon" href="favicon.ico">
 </head>
 <body>
