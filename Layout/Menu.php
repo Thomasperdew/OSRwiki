@@ -2,12 +2,12 @@
   <div>Creating a Character</div>
   <div>
     <div>Abilities</div>
-      <li<?php if ($thisPage=="Strength")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Strength.php">Strength</a></li>
-      <li<?php if ($thisPage=="Dexterity")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Dexterity.php">Dexterity</a></li>
-      <li<?php if ($thisPage=="Constitution")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Constitution.php">Constitution</a></li>
-      <li<?php if ($thisPage=="Intelligence")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Intelligence.php">Intelligence</a></li>
-      <li<?php if ($thisPage=="Wisdom")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Wisdom.php">Wisdom</a></li>
-      <li<?php if ($thisPage=="Charisma")  echo " id=\"currentpage\""; ?>> <a href="/Website/Stats/Charisma.php">Charisma</a></li>
+      <li<?php if ($thisPage=="Strength")  echo " id=\"currentpage\""; ?>> <a href="Stats/Strength.php">Strength</a></li>
+      <li<?php if ($thisPage=="Dexterity")  echo " id=\"currentpage\""; ?>> <a href="Stats/Dexterity.php">Dexterity</a></li>
+      <li<?php if ($thisPage=="Constitution")  echo " id=\"currentpage\""; ?>> <a href="Stats/Constitution.php">Constitution</a></li>
+      <li<?php if ($thisPage=="Intelligence")  echo " id=\"currentpage\""; ?>> <a href="Stats/Intelligence.php">Intelligence</a></li>
+      <li<?php if ($thisPage=="Wisdom")  echo " id=\"currentpage\""; ?>> <a href="Stats/Wisdom.php">Wisdom</a></li>
+      <li<?php if ($thisPage=="Charisma")  echo " id=\"currentpage\""; ?>> <a href="Stats/Charisma.php">Charisma</a></li>
     <div>Races</div>
       <li<?php if ($thisPage=="Elf")  echo " id=\"currentpage\""; ?>> <a href="/Website/Races/Elf.php">Elf</a></li>
       <li<?php if ($thisPage=="Dwarf")  echo " id=\"currentpage\""; ?>> <a href="/Website/Races/Dwarf.php">Dwarf</a></li>
