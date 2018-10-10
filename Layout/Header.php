@@ -1,1 +1,1 @@
- <img src="icon.png" class="icon-item"></img><h1 style="float:left; margin:0;" <?php if ($thisPage=="Index")  echo " id=\"currentpage\""; ?>><a href="/Website/Index.php">OSRwiki</a></h1><a href="Login.html" class="login-item">Login</a>
+ <img src="icon.png" class="icon-item"></img><h1 style="float:left; margin:0;" <?php if ($thisPage=="Index")  echo " id=\"currentpage\""; ?>><a href="/Website/Index.php">OSRwiki</a></h1><a href="Login.php" class="login-item">Login</a>
