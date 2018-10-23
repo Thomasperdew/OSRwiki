@@ -1,3 +1,9 @@
+<?php
+session_start();
+$message = isset($_SESSION['message']) ? $_SESSION['message'] : '';
+unset($_SESSION['message']);
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,19 +15,28 @@
     <table>
         <tr>
             <td>
-                <form action="/action_page.php">
+				<?php if (isset($_SESSION['messages'])) {
+				foreach ($_SESSION['messages'] as $message) {?>
+				<div class="message <?php echo isset($_SESSION['validated']) ? $_SESSION['validated'] : '';?>"><?php
+				echo $message; ?></div>
+				<?php  }
+				unset($_SESSION['messages']);
+				?> </div>
+				<?php } ?>
+
+                <form method="post" action="handler2.php">
                     <div class="imgcontainer">
                         <img src="icon.png" alt="Avatar" class="avatar">
                     </div>
 
                     <div class="container">
-                        <label for="uname"><b>Username</b></label>
-                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="login"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="login" value= "" required>
 
-                        <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="password" required>
 
-                        <button type="submit">Login</button>
+                        <button type="submit" value="Submit">Login</button>
                         <label>
                             <input type="checkbox" checked="checked" name="remember"> Remember me
                         </label>
@@ -29,27 +44,27 @@
 
                     <div class="container" style="background-color:#f1f1f1">
                         <button type="button" class="cancelbtn">Cancel</button>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
+                        <span class="password">Forgot <a href="#">password?</a></span>
                     </div>
                 </form>
             </td>
             <td>
-                <form action="/action_page.php">
+                <form method="post" action="handler.php">
                     <div class="imgcontainer">
                         <img src="icon.png" alt="Avatar" class="avatar">
                     </div>
 
                     <div class="container">
-                        <label for="uname"><b>Username</b></label>
-                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <label for="login"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="login" required>
 
                         <label for="email"><b>Email</b></label>
                         <input type="email" placeholder="Enter Email" name="email" required>
 
-                        <label for="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <label for="password"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="password" required>
 
-                        <button type="submit">Signup</button>
+                        <button type="submit" value="Submit">Signup</button>
                         <label>
                         </label>
                     </div>
