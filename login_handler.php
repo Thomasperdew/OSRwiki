@@ -6,7 +6,7 @@
 class Dao {
 
   private $host = "us-cdbr-iron-east-01.cleardb.net";
-  private $db = "CS401";
+  private $db = "heroku_10aa37358da4f01";
   private $user = "be72e1d5d10f7b";
   private $pass = "570ee2c1";
 

@@ -36,7 +36,7 @@ $_SESSION['messages'][] = "Thanks for joining!";
 $_SESSION['validated'] = 'good';
 unset($_SESSION['presets']);
 require_once 'Dao.php';
-$dao = new saveLogin();
+$dao = new Dao();
 $dao->saveLogin($username, $password, $email);
 header('Location: /Website/login.php');
 exit;

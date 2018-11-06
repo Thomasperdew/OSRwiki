@@ -30,8 +30,8 @@ unset($_SESSION['message']);
                     </div>
 
                     <div class="container">
-                        <label for="login"><b>Username</b></label>
-                        <input type="text" placeholder="Enter Username" name="login" value= "" required>
+                        <label for="username"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="username" value= "" required>
 
                         <label for="password"><b>Password</b></label>
                         <input type="password" placeholder="Enter Password" name="password" required>
@@ -55,8 +55,8 @@ unset($_SESSION['message']);
                     </div>
 
                     <div class="container">
-                        <label for="login"><b>Username</b></label>
-                        <input type="text" placeholder="Enter Username" name="login" required>
+                        <label for="username"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="username" required>
 
                         <label for="email"><b>Email</b></label>
                         <input type="email" placeholder="Enter Email" name="email" required>
