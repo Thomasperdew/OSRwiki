@@ -12,11 +12,11 @@
         <div class="item3">
             <h2>Wisdom</h2>
             <p>
-                A character’s wisdom score (“Wis”) indicates how “in tune”
+                A characters wisdom score (Wis) indicates how in tune
                 the character is with his or her surroundings. This translates not
                 only to general awareness, but also to mystical attunement and
-                the ability to understand peoples’ motives. It is, in many ways,
-                a measure of the “sixth sense.” Wisdom is the most important
+                the ability to understand peoples motives. It is, in many ways,
+                a measure of the sixth sense. Wisdom is the most important
                 attribute for clerics and druids.
             </p>
         </div>

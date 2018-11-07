@@ -12,7 +12,7 @@
         <div class="item3">
             <h2>Wizard</h2>
             <p>
-                Magic users are a rare breed—practitioners of the mysterious
+                Magic users are a rare breed practitioners of the mysterious
                 art of arcane spell casting. A lengthy apprenticeship of
                 study and practice allows these somewhat eerie individuals to
                 store arcane energy within their minds and to release it in the
@@ -55,8 +55,8 @@
                 OSRIC magic users are superfi cially similar to the wizards of
                 fantasy literature such as Gandalf and Merlin, but they are
                 more closely similar to mages described in the works of Jack
-                Vance. His “Dying Earth” cycle, and particularly “Rhialto the
-                Marvellous”, are highly recommended.
+                Vance. His Dying Earth cycle and particularly Rhialto the
+                Marvellous are highly recommended.
             </p>
             <p>
                 Magic users are the only class capable of fabricating magic

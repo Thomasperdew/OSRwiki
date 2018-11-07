@@ -13,8 +13,8 @@
         <div class="item3">
             <h2>Intelligence</h2>
             <p>
-                Intelligence (“Int”) is a measure of a character’s raw mental
-                power—his or her ability to calculate, recall facts, and solve
+                Intelligence (Int) is a measure of a characters raw mental
+                power his or her ability to calculate, recall facts, and solve
                 abstract problems. It is the most important attribute for magic
                 users and illusionists. Intelligence also determines how many
                 additional languages the character may learn beyond those he

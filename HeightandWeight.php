@@ -12,7 +12,7 @@
         <div class="item3">
             <h2>Height and Weight</h2>
             <p>
-                Some GMs and/or players like to assign their character’s height and weight from the character’s ability scores and background,
+                Some GMs and/or players like to assign their characters height and weight from the characters ability scores and background,
                 and others do not bother with them. These are perfectly acceptable approaches. Some groups prefer to use random tables for
                 these things, and for these groups, the following tables are provided.
             </p>

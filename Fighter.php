@@ -30,12 +30,12 @@
                 survive the most brutal battles is therefore unrivalled.
             </p>
             <p>
-                They also have the best chance “to hit” of all the classes, particularly
+                They also have the best chance to hit of all the classes, particularly
                 at higher level. They may use any kind of armour, shield,
-                or weapon. Most fi ghters look forward to the day when their
+                or weapon. Most fighters look forward to the day when their
                 reputations will bring them into the ranks of the lesser nobility,
-                where fi ghting prowess and armed followers are more
-                important than high-fl own bloodlines. It is no small matter to
+                where fighting prowess and armed followers are more
+                important than high flown bloodlines. It is no small matter to
                 carve a freehold out of the wilderness, but to do so is to leave
                 behind a legacy in a world where most fortune-seekers die
                 an unsung death.

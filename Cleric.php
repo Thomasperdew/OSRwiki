@@ -23,8 +23,8 @@
                 battle against the enemies of their gods. Some clerics are fanatics,
                 zealously seeking new converts or hunting heretics. Others
                 seem almost burdened by an inconvenient or even oppressive
-                relationship with the divine forces. Evil clerics—sinister villains
-                who prey upon fear and jealousy—sow discord in the world
+                relationship with the divine forces. Evil clerics sinister villains
+                who prey upon fear and jealousy sow discord in the world
                 and gather converts for their demonic masters.
             </p>
             <p>
@@ -32,19 +32,19 @@
                 Most clerical spells are oriented toward healing, strengthening,
                 and defending others. However, when the need arises
                 the cleric is fully capable of taking a place in the line of battle
-                and smiting down infi dels and foes. Clerics employ their holy
+                and smiting down infidels and foes. Clerics employ their holy
                 symbols rather than spell books as a focus for their meditation.
             </p>
             <p>
                 When a cleric attains ninth level, he or she has accumulated
-                suffi cient divine favour and mortal renown to found a temple/
+                sufficient divine favour and mortal renown to found a temple/
                 stronghold. Such places are normally carved from the wilderness,
-                in the same manner as a fi ghter establishes a freehold.
+                in the same manner as a fighter establishes a freehold.
                 For a cleric to assume the leadership of an existing temple, the
                 details are left to the discretion of the GM; a level somewhat
                 higher than ninth might be required. Whether the cleric establishes
                 a stronghold or a temple, followers and acolytes will
-                fl ock to the cleric’s banner.
+                flock to the clerics banner.
             </p>
         </div>
         <div class="item5">

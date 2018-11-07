@@ -14,7 +14,7 @@
             <h2>Alignment</h2>
             <p>
                 Alignment represents where a character falls in terms of the
-                ever-present battle between good and evil. Along the lawchaos
+                ever present battle between good and evil. Along the lawchaos
                 axis, it also represents how the character approaches
                 such issues. Alignment is more than a philosophy; evil and
                 good are palpably real in the game world. An evil person bears
@@ -34,7 +34,7 @@
                 in that culture. Such a culture is evil.
             </p>
             <p>
-                Each alignment has an “alignment language” specifi c to that
+                Each alignment has an alignment language specific to that
                 alignment, allowing characters of that alignment to communicate
                 with one another to a certain degree. Alignment tongues
                 are not precisely languages; they cannot be rendered into
@@ -45,21 +45,21 @@
                 by members of the same alignment.
                 Note that not all creatures of a particular alignment will speak
                 their alignment tongue, although demi-humans and humanoids
-                will normally do so. A creature such as a chimæra, for example,
+                will normally do so. A creature such as a chimera, for example,
                 that is non-humanoid and generally evil by nature rather than
                 by choice, might be chaotic evil in alignment but would not
                 speak the chaotic evil alignment tongue. A gnoll, however,
                 that is humanoid and evil by choice as well as by nature, will
                 tend to speak the chaotic evil alignment tongue.
-                the nIne alIGnments.
+                the nine alignnments.
             </p>
             <p>
-                Nine distinct alignments defi ne all the possible combinations
-                of the law–chaos axis with the good–evil axis. Remember that
+                Nine distinct alignments define all the possible combinations
+                of the law/chaos axis with the good/evil axis. Remember that
                 individuals vary from this norm, and that a given character may
                 act more or less in accord with his or her alignment from day to
                 day. Use these descriptions as guidelines, not as scripts.
-                lawful Good, “crusader”: A lawful good character acts as a
+                lawful Good, crusader: A lawful good character acts as a
                 good person is expected or required to act. He or she combines
                 a commitment to oppose evil with the discipline to fi ght
                 relentlessly. He or she normally tells the truth, keeps his or her
@@ -69,7 +69,7 @@
                 of both honour and compassion.
             </p>
             <p>
-                neutral Good, “Benefactor”: A neutral good character does
+                neutral Good, Benefactor: A neutral good character does
                 the best that a good person can do. He or she is devoted to
                 helping others. He or she might work with or on behalf of kings
                 and magistrates, but does not feel beholden to them if he or
@@ -78,7 +78,7 @@
                 bias for or against order (or laws).
             </p>
             <p>
-                chaotic Good, “Rebel”: A chaotic good character acts as his or
+                chaotic Good, Rebel: A chaotic good character acts as his or
                 her conscience directs, with little regard for what others might
                 expect. He or she makes his or her own way, but is generally
                 (The Nine Alignments)
@@ -91,7 +91,7 @@
                 a good heart with a free spirit.
             </p>
             <p>
-                lawful neutral, “Judge”: A lawful neutral character acts as
+                lawful neutral, Judge: A lawful neutral character acts as
                 law, tradition, or a personal code directs him. Order and organisation
                 are paramount. He or she may believe in personal
                 order and live by a code or standard, or might believe in order
@@ -104,7 +104,7 @@
                 neutral: A neutral character has no allegiance to either good
                 vs evil or law vs chaos. Most neutral characters exhibit a lack
                 of conviction or bias rather than a commitment to neutrality.
-                These normally think of good as preferable to evil—after all,
+                These normally think of good as preferable to evil after all,
                 they would rather have good neighbours and rulers than evil
                 ones.
                 Still, such characters are not personally committed to upholding
@@ -116,10 +116,10 @@
                 road in the long run.
             </p>
             <p>
-                chaotic neutral, “free Spirit”: A chaotic neutral character
+                chaotic neutral, free Spirit: A chaotic neutral character
                 follows his or her whims. He or she is an individualist fi rst and
                 last. He or she values his or her own liberty but does not strive
-                to protect others’ freedom. He or she avoids authority, resents
+                to protect others freedom. He or she avoids authority, resents
                 restrictions, and challenges traditions.
                 A chaotic neutral character does not normally intentionally
                 disrupt organisations as part of a campaign of anarchy. To do
@@ -130,7 +130,7 @@
                 normally totally random.
             </p>
             <p>
-                lawful evil, “dominator”: A lawful evil villain methodically
+                lawful evil, dominator: A lawful evil villain methodically
                 takes what he or she wants within the limits of his or her code
                 of conduct without regard for whom it hurts. He or she cares
                 about tradition, loyalty, and order but not about freedom, dignity,
@@ -152,24 +152,24 @@
                 Beyond being willing to hurt others for their own ends, they
                 take pleasure in spreading evil as an end unto itself. They may
                 also see doing evil as part of a duty to an evil deity or master.
-                Lawful evil is sometimes called “diabolical,” because devils are
+                Lawful evil is sometimes called diabolical, because devils are
                 the epitome of lawful evil.
             </p>
             <p>
-                neutral evil, “malefactor”: A neutral evil villain does whatever
+                neutral evil, malefactor: A neutral evil villain does whatever
                 he or she can get away with. He or she is out for him- or
                 herself, pure and simple. He or she sheds no tears for those
-                he or she kills, whether for profi t, sport, or convenience. He
+                he or she kills, whether for profit, sport, or convenience. He
                 or she has no love of order and holds no illusion that following
                 laws, traditions, or codes would make him or her any better
-                or more noble. On the other hand, he or she doesn’t have the
-                restless nature or love of confl ict that a chaotic evil villain has.
+                or more noble. On the other hand, he or she doesnt have the
+                restless nature or love of conflict that a chaotic evil villain has.
                 Some neutral evil villains hold up evil as an ideal, committing
                 evil for its own sake. Most often, such villains are devoted to
                 evil deities or secret societies.
             </p>
             <p>
-                chaotic evil, “destroyer”: A chaotic evil character does whatever
+                chaotic evil, destroyer: A chaotic evil character does whatever
                 his or her greed, hatred, and lust for destruction drive him
                 to do. He or she is hot-tempered, vicious, arbitrarily violent,
                 and unpredictable. If he or she is simply out for whatever he
@@ -181,7 +181,7 @@
                 Typically, chaotic evil creatures can be made to work together
                 only by force, and their leader lasts only as long as he or
                 she can thwart attempts to topple or assassinate him or her.
-                Chaotic evil is sometimes called “demonic” because demons
+                Chaotic evil is sometimes called demonic because demons
                 are the epitome of chaotic evil. Chaotic evil represents the
                 destruction not only of beauty and life but also of the order
                 on which beauty and life depend.

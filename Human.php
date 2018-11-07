@@ -20,11 +20,11 @@
                 for most players. This is an intentional feature of the rules.
             </p>
             <p>
-                A common house rule in OSRIC-compatible games is the
+                A common house rule in OSRIC compatible games is the
                 adjustment or removal of demi-human level limits. This will
                 unbalance the game in favour of demi-humans unless humans
                 are given some corresponding advantage. GMs considering
-                such a house rule for their own OSRIC-compatible games are
+                such a house rule for their own OSRIC compatible games are
                 advised to ensure that in most campaigns, humans should still
                 represent an attractive choice for their players.
             </p>

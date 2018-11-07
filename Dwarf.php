@@ -18,12 +18,12 @@
             </p>
             <p>
                 The dwarfs are inherently resistant to many spells and spell-like
-                effects. Dwarfi sh characters gain bonuses against the use of
+                effects. Dwarfish characters gain bonuses against the use of
                 most magic, including all spells, wands, rods, and staves. The
-                amount of the bonus depends upon the dwarf’s constitution:
+                amount of the bonus depends upon the dwarfs constitution:
                 every 3.5 points of constitution (rounding down fractions)
                 grants a bonus of +1 against such magic. Moreover, the hardy
-                dwarfi sh nature imparts a similar bonus on any saving throws
+                dwarfish nature imparts a similar bonus on any saving throws
                 against poison.
             </p>
             <p>
