@@ -10,12 +10,14 @@
             <?php include 'Menu.php';?>
         </div>
         <div class="item3">
-            <h2>Equipment</h2>
+            <h2>Wisdom</h2>
             <p>
-                The following table shows suggested general equipment prices
-                for a typical campaign. Players should check with their GM
-                whether the prices show below apply in his or her specifi c
-                campaign.
+                A character’s wisdom score (“Wis”) indicates how “in tune”
+                the character is with his or her surroundings. This translates not
+                only to general awareness, but also to mystical attunement and
+                the ability to understand peoples’ motives. It is, in many ways,
+                a measure of the “sixth sense.” Wisdom is the most important
+                attribute for clerics and druids.
             </p>
         </div>
         <div class="item5">
@@ -25,4 +27,3 @@
 
 </body>
 </html>
-

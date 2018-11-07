@@ -38,5 +38,5 @@ unset($_SESSION['presets']);
 require_once 'Dao.php';
 $dao = new Dao();
 $dao->saveLogin($username, $password, $email);
-header('Location: /Website/login.php');
+header('Location: login.php');
 exit;

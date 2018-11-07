@@ -6,9 +6,9 @@
 </head>
 <body>
     <div class="grid-container">
-        <div class="item1"><?php include '/Layout/Header.php';?></div>
+        <div class="item1"><?php include 'Header.php';?></div>
         <div class="item2">
-            <?php include '/Layout/Menu.php';?>
+            <?php include 'Menu.php';?>
         </div>
         <div class="item3">
             <h2>Alignment</h2>
@@ -188,7 +188,7 @@
             </p>
         </div>
         <div class="item5">
-            <?php include '/Layout/Footer.php';?>
+            <?php include 'Footer.php';?>
         </div>
     </div>
 

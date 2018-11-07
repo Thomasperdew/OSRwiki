@@ -11,9 +11,14 @@ class Dao {
 		return $conn;
   }
 
-    public function getLogin ($username, $password) {
+    public function getLogin ($username) {
 		$conn = $this->getConnection();
-		return $conn->query("SELECT count(*) from (select username, password from user where username = 'tom' and password = 'me') as x;", PDO::FETCH_ASSOC);
+		$loginQuery = "select * from user where username = :username";
+		$q = $conn->prepare($loginQuery);
+		$q->bindParam(":username", $username);
+		$q->execute();
+		return $q->fetchAll();
+
 	}
 
     public function saveLogin ($username, $password, $email) 
