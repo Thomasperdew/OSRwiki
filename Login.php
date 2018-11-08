@@ -11,13 +11,13 @@ unset($_SESSION['message']);
     <link rel="stylesheet" href="Loginstylesheet.css" />
 </head>
 <body>
-<h1><a href="Index.php">OSRwiki</a></h1>
-    <table>
-        <tr>
-            <td>
+<h1><a href="Index.php">OSRwiki</a></h1> 
 <?php if(!empty($message)) { ?>
 <div class="message"><?php echo $message; ?></div>
 <?php } ?>
+    <table>
+        <tr>
+            <td>
                 <form method="post" action="loginhandler.php">
                     <div class="imgcontainer">
                         <img src="icon.png" alt="Avatar" class="avatar">
@@ -32,9 +32,6 @@ unset($_SESSION['message']);
 
                         <button type="submit" value="Submit">Login</button>
                     </div>
-
-                    <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" class="cancelbtn">Cancel</button>
                     </div>
                 </form>
             </td>
@@ -57,10 +54,6 @@ unset($_SESSION['message']);
                         <button type="submit" value="Submit">Signup</button>
                         <label>
                         </label>
-                    </div>
-
-                    <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" class="cancelbtn">Cancel</button>
                     </div>
                 </form>
             </td>

@@ -80,3 +80,10 @@ span.psw {
 td {
     padding: 100px;
 }
+
+.message {
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    width: 300px;
+    background-color: #B90000;
+}
