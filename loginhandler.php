@@ -14,14 +14,13 @@ require_once 'Dao.php';
 $dao = new Dao();
 $login = $dao->getLogin($username)[0];
 
-	if ($login == null || $login['password'] != $password) {
-		    $_SESSION['logged_in'] = false;
-			$_SESSION['message'] = "Username or password invalid";
-			header('Location: /Website/login.php');
-			exit;
-	}
-
-	//Everything was validated
+	if (password_verify($password, $login['password'])){
 	$_SESSION['logged_in'] = 'true';
 	header('Location: index.php');
+	exit;
+	}
+	
+	$_SESSION['logged_in'] = false;
+	$_SESSION['message'] = "Username or password invalid";
+	header('Location: login.php');
 	exit;

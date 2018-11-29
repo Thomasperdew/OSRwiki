@@ -24,10 +24,11 @@ class Dao {
     public function saveLogin ($username, $password, $email) 
 	{
 		$conn = $this->getConnection();
+		$passhash = password_hash($password, PASSWORD_DEFAULT);
 		$saveQuery ="INSERT INTO user(username, password, email)VALUES(:username, :password, :email)";
 		$q = $conn->prepare($saveQuery);
 		$q->bindParam(":username", $username);
-		$q->bindParam(":password", $password);
+		$q->bindParam(":password", $passhash);
 		$q->bindParam(":email", $email);
 		$q->execute();
 	}

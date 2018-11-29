@@ -9,11 +9,13 @@ unset($_SESSION['message']);
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Loginstylesheet.css" />
+	<script src="fade.js"></script>
 </head>
 <body>
 <h1><a href="Index.php">OSRwiki</a></h1> 
 <?php if(!empty($message)) { ?>
 <div class="message"><?php echo $message; ?></div>
+<img src="conrad_plane.jpg" id="fade"></img>
 <?php } ?>
     <table>
         <tr>
