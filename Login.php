@@ -9,12 +9,12 @@ unset($_SESSION['message']);
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Loginstylesheet.css" />
-	<script src="fade.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
-<h1><a href="Index.php">OSRwiki</a></h1> 
+<h1><a href="index.php">OSRwiki</a></h1> 
 <?php if(!empty($message)) { ?>
-<div class="message"><?php echo $message; ?></div>
+<div class='message'><?php echo $message; ?></div>
 <img src="conrad_plane.jpg" id="fade"></img>
 <?php } ?>
     <table>
@@ -63,3 +63,8 @@ unset($_SESSION['message']);
     </table>
 </body>
 </html>
+<script>
+$(document).ready(function () {
+    $("#fade").fadeOut(3000);
+});
+</script>
